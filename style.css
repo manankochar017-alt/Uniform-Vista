@@ -257,14 +257,6 @@ button{font-family:inherit;cursor:pointer;background:none;border:none;}
 
 /* ============ ABOUT ============ */
 .about{padding:120px 0;background:var(--cream);position:relative;overflow:hidden;}
-.about-shapes{position:absolute;inset:0;z-index:0;pointer-events:none;color:var(--gold);}
-.about-shape{position:absolute;opacity:.16;}
-.about-shape-circle{width:280px;height:280px;top:-70px;left:-90px;}
-.about-shape-square{width:160px;height:160px;bottom:40px;left:6%;transform:rotate(18deg);opacity:.12;}
-.about-shape-triangle{width:180px;height:160px;top:10%;right:4%;transform:rotate(8deg);opacity:.14;color:var(--navy-soft);}
-.about-shape-dots{width:170px;height:44px;bottom:12%;right:8%;opacity:.35;}
-.about-shape-ring{width:150px;height:150px;bottom:-50px;right:20%;opacity:.14;}
-@media (max-width:800px){.about-shape-triangle,.about-shape-square{display:none;}}
 .about-grid{
   display:grid;grid-template-columns:.85fr 1.15fr;gap:70px;align-items:center;
   position:relative;z-index:1;
